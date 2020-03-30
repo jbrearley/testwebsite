@@ -1,0 +1,19 @@
+@import '../../sass/base';
+
+.home-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+
+  @media screen and (min-width: $mediaTabletWidth) {
+    width: 60%;
+  }
+
+  h2 + p {
+    padding-top: 12px;
+  }
+
+  p + p {
+    padding-top: 16px;
+  }
+}
